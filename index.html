@@ -465,9 +465,9 @@
 
   <!-- Letter card -->
   <div class="card-wrap" id="card">
-    <div class="card-to">Dear <span id="recipient-display">Benesee</span>,</div>
-    <div class="card-body" id="message-display">Maayung mUrning! Onta nindot imoha adlaw ron, malEpayon ug malEnawon. AmpEng pirme diha kanunay sa inyo or sa asa kaman mo lakaw karon. Nya ayaw kalimot ug ismile pirme kay nindot raba kag ismile nya kyot kayg aping suss.</div>
-    <div class="card-sig">Sincerely,<br><span id="sender-display">nEkol gwapo</span></div>
+    <div class="card-to">Dear <span id="recipient-display">Venezzzz</span>,</div>
+    <div class="card-body" id="message-display">Maayung Bontag Kanemo! Hinaot nendot, malenawon, ug malepayon imoha adlaw karon. Ampeng diha perme kanunay sa inyo or sa asa kaman mo lakaw ron. Nya olwis ayaw kalemot ug ismile perme kay nendot raba kag ismile nya kyot kayg aping suss pareha gahapon hihihi. mUrNeNG</div>
+    <div class="card-sig">Sincerely,<br><span id="sender-display">Nikolzzz igup</span></div>
   </div>
 
   <button class="edit-btn" onclick="openEdit()">
@@ -485,11 +485,11 @@
   <div class="edit-box">
     <h2>Personalize your card</h2>
     <label>To</label>
-    <input type="text" id="input-recipient" value="Benesee" maxlength="40"/>
+    <input type="text" id="input-recipient" value="Venezzzz" maxlength="40"/>
     <label>Message</label>
-    <textarea id="input-message">Maayung mUrning! Onta nindot imoha adlaw ron, malEpayon ug malEnawon. AmpEng pirme diha kanunay sa inyo or sa asa kaman mo lakaw karon. Nya ayaw kalimot ug ismile pirme kay nindot raba kag ismile nya kyot kayg aping suss.</textarea>
+    <textarea id="input-message">Maayung Bontag Kanemo! Hinaot nendot, malenawon, ug malepayon imoha adlaw karon. Ampeng diha perme kanunay sa inyo or sa asa kaman mo lakaw ron. Nya olwis ayaw kalemot ug ismile perme kay nendot raba kag ismile nya kyot kayg aping suss pareha gahapon hihihi. mUrNeNG</textarea>
     <label>From</label>
-    <input type="text" id="input-sender" value="nEkol gwapo" maxlength="40"/>
+    <input type="text" id="input-sender" value="Nikolzzz igup" maxlength="40"/>
     <div class="btn-row">
       <button class="btn btn-cancel" onclick="closeEdit()">Cancel</button>
       <button class="btn btn-save" onclick="saveEdit()">Save</button>
@@ -536,9 +536,9 @@
   }
 
   function saveEdit() {
-    const r = document.getElementById('input-recipient').value.trim() || 'Benesee';
+    const r = document.getElementById('input-recipient').value.trim() || 'Venezzzz';
     const m = document.getElementById('input-message').value.trim();
-    const s = document.getElementById('input-sender').value.trim() || 'nEkol gwapo';
+    const s = document.getElementById('input-sender').value.trim() || 'Nikolzzz igup';
 
     document.getElementById('recipient-display').textContent = r;
     document.getElementById('message-display').textContent = m;
